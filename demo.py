@@ -59,10 +59,6 @@ def export_to_seafowl(
     context, config: ExportToSeafowlConfig, data: pd.DataFrame
 ) -> None:
     context.log.info("exporting to seafowl")
-    context.log.info(f"CONFIG url {config.url}")
-    context.log.info(f"CONFIG secret {config.secret}")
-    context.log.info(f"CONFIG table {config.table}")
-
     conn = SeafowlConnectionParams(
         url=config.url,
         secret=config.secret,
