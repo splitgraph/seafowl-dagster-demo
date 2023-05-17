@@ -1,0 +1,6 @@
+ops:
+  export_to_seafowl:
+    config:
+      secret: "iHBHflYfEaMpX4j7Du0z6vFNS6w2BMaX"
+      table: "hn"
+      url: "http://127.0.0.1:8080"
